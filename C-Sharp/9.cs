@@ -1,4 +1,6 @@
-﻿public class Solution {
+﻿// Is Palindrome
+
+public class Solution {
     public bool IsPalindrome(int x) {
         if (x < 0)
         {
