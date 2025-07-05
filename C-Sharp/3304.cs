@@ -16,12 +16,6 @@ public class Solution {
         while (counter < k)
         {
             stringCounter = 0;
-            for (int i = 0; i < firstString.Length; i++)
-            {
-                char nextChar = (char)('a' + (firstString[i] - 'a' + 1) % 26);
-                secondString += nextChar;
-                stringCounter++;
-            }
 
             firstString += secondString;
             secondString = String.Empty;
